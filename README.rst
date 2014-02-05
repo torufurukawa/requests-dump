@@ -1,7 +1,7 @@
 requets-dump
 ============
 
-Dump HTTP communiation by requests.
+Provides a hook function to dump HTTP communiation for requests.
 
 Usage
 =====

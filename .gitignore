@@ -1,1 +1,5 @@
 .python-version
+MANIFEST
+build/
+dist/
+requests_dump.egg-info/
