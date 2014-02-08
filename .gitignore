@@ -3,3 +3,6 @@ MANIFEST
 build/
 dist/
 requests_dump.egg-info/
+.tox/
+__pycache__/
+*.pyc

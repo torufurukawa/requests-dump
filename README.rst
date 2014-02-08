@@ -4,7 +4,7 @@ requets-dump
 Provides a hook function to dump HTTP communiation for requests.
 
 Usage
-=====
+-----
 
 ::
 
@@ -31,3 +31,17 @@ Usage
     <!doctype html>
     <html>
     ...
+
+
+History
+-------
+
+0.1.1
+^^^^^
+
+* Support Python 3.3
+
+0.1
+^^^
+
+* Birth!

@@ -28,12 +28,13 @@ def dump(res, *args, **kw):
         println('< %s: %s' % (k, v))
 
     # response body
-    println(res.content)
+    println(res.text)
     println('')
 
 
 def println(text):
-    stdout.write(text + '\n')
+    stdout.write(text)
+    stdout.write('\n')
 
 
 if __name__ == '__main__':
