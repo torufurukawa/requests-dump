@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = '0.1.1'
+version = '0.1.3'
 name = 'requests-dump'
 short_description = '`requests-dump` provides hook functions for requests.'
 long_description = open('README.rst').read()
