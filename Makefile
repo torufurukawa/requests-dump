@@ -1,7 +1,8 @@
 .PHONY: init test test-all build publish ctest
 
-BUILD27 = python setup.py sdist bdist_egg
+BUILD27 = python2.7 setup.py sdist bdist_egg
 BUILD33 = python3.3 setup.py bdist_egg
+BUILD33 = python3.4 setup.py bdist_egg
 
 init:
 	pip install -r requirements.txt
@@ -20,6 +21,7 @@ build:
 	$(BUILD33)
 
 publish:
-	python setup.py register
-	$(BUILD27) upload
-	$(BUILD33) upload
+	python setup.py register;\
+	$(BUILD27) upload;\
+	$(BUILD33) upload;\
+	$(BUILD34) upload
